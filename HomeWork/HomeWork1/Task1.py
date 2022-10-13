@@ -5,10 +5,10 @@
 # 7 -> да
 # 1 -> нет
 
-day = int(input('Enter day number: '))
+day = int(input('Введите день: '))
 if day > 7 or day < 1:
-    print('Please, repeat the input')
+    print('Неверное значение, повторите ввод')
 elif day == 6 or day == 7:
-    print("Yes, it's weekend!")
+    print("Это выходной!")
 else:
-    print("No, it's not weekend!")
+    print("Это не выходной!")
